@@ -4,6 +4,11 @@ import androidx.compose.ui.window.application
 
 fun main() = application {
     Window(onCloseRequest = ::exitApplication, title = "KtWASM-Playground") {
-        App()
+        GreetingApp()
     }
+}
+
+@Composable
+fun DesktopOnlyComp() {
+
 }

@@ -18,7 +18,7 @@ import ktwasm_playground.composeapp.generated.resources.compose_multiplatform
 @OptIn(ExperimentalResourceApi::class)
 @Composable
 @Preview
-fun App() {
+fun GreetingApp() {
     MaterialTheme {
         var showContent by remember { mutableStateOf(false) }
         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
