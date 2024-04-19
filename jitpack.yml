@@ -1,5 +1,7 @@
 jdk:
   - openjdk17
+before_install:
+  - nvm install 21.7.3
 install:
   - echo "Running a custom install command"
   - ./gradlew clean build
